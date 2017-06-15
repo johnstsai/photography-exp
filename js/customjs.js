@@ -1,3 +1,9 @@
 $(document).ready(function(){
-        $('#header-content-inner').fadeIn(3000);
+    $("#homeHeading").mouseenter(function(){
+        $("#homeHeading").slideUp("slow");
+    });
+   $("#homeparagraph").mouseleave(function(){
+        $("#homeparagraph").slideDown("slow");
+    });
+     
 });
